@@ -3,7 +3,7 @@ name: Staging deployment
 
 on: 
   pull_request:
-    types: [staging-workflow]
+    types: [lebeled]
 
 jobs:
   build:
